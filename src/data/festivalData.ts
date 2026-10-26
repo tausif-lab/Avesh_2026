@@ -456,7 +456,7 @@ export const EVENTS_DATA: TechEvent[] =
     venue: "CGIT Auditorium",
     scheduleTime: "29 Oct · 03:00 PM – 08:00 PM",
     day: "Day 3",
-    registrationLink: "",
+    registrationLink: "https://forms.gle/C7uCKQaoKiZpvgpj7",
     guidelinesLink: "",
     featured: true,
     cgitOnly: true,
