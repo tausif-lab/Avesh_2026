@@ -72,7 +72,7 @@ export const EVENTS_DATA: TechEvent[] = [
     scheduleTime: "27 Oct.1:30 PM – 4:30 PM ",
     day: "Day 1",
     registrationLink:
-      "https://unstop.com/college-fests/avesh-promptme-government-engineering-college-raipur-528063",
+      "https://unstop.com/o/pv8RLzk?lb=useqRfl8&utm_medium=Share&utm_source=24f10jai98577&utm_campaign=Events",
     guidelinesLink:
       "https://drive.google.com/drive/folders/1gQp3P4m06ri-5VIu4Of7KwR-C-3sJge6?usp=sharing",
     featured: true,
