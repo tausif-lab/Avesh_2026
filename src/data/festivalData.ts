@@ -33,7 +33,7 @@ export const EVENTS_DATA: TechEvent[] = [
     categoryLabel: "Ideathon · 5 Hours",
     tagline: "Pitch an Idea with Clear Business Value to Professional Judges",
     description:
-      "Shape a practical idea, pitch it to professional judges, and receive feedback and mentoring while exploring startup opportunities.",
+      "Shape a practical idea, pitch it to professional judges, and receive feedback and mentoring while exploring startup opportunities. Prize money is sponsored by the Tadoba Solutions Pvt. Ltd.",
     prizePool: "7k+ prizepool",
     teamSize: "1 - 3 Members",
     entryFee: "FREE",
@@ -245,7 +245,7 @@ export const EVENTS_DATA: TechEvent[] = [
     categoryLabel: "Hackathon · 8 Hours",
     tagline: "8-Hour Innovation Sprint to Turn Ideas into Working Prototypes",
     description:
-      "An innovation sprint where student teams collaborate, prototype, and present practical ideas that solve real community problems.",
+      "An innovation sprint where student teams collaborate, prototype, and present practical ideas that solve real community problems.Prize money is sponsored by the Tadoba Solutions Pvt. Ltd.",
     prizePool: "Reward & Memento",
     teamSize: "1 - 4 Members",
     entryFee: "FREE (Shortlist Based)",
@@ -277,7 +277,7 @@ export const EVENTS_DATA: TechEvent[] = [
     categoryLabel: "Technical Quiz",
     tagline: "Think Fast. Answer Right.",
     description:
-      "Test your knowledge of BIS standards, technical concepts, general awareness, and real-world applications under time pressure.",
+      "Test your knowledge of BIS standards, technical concepts, general awareness, and real-world applications under time pressure.Prize money is sponsored by the BIS",
     prizePool: "₹10,000 Prize Pool",
     teamSize: "1 - 3 Members per Team",
     entryFee: "FREE",
@@ -308,7 +308,7 @@ export const EVENTS_DATA: TechEvent[] = [
     tagline: "Create. Post. Meme.",
     description:
       "Turn coding struggles, AI fails, and engineering life into internet gold! Showcase your humour and creativity through tech memes and compete to become the ultimate Meme Lord at AVESH 2026.",
-    prizePool: "Mementos & Certificates",
+    prizePool: "2k Prize Pool",
     teamSize: "Individual / 2 Members",
     entryFee: "FREE",
     venue: "C-Block, Room C-105, CGIT Raipur",
@@ -346,7 +346,8 @@ export const EVENTS_DATA: TechEvent[] = [
     venue: "Photography Exhibition Gallery",
     scheduleTime: "Submissions Close·28 Oct · 10:00 PM",
     day: "Day 2",
-    registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSdnZa_fHtV8S9OXTifhNwQsXZn_-MMXzl_ukT2oW6woC_WNFQ/viewform",
+    registrationLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLSdnZa_fHtV8S9OXTifhNwQsXZn_-MMXzl_ukT2oW6woC_WNFQ/viewform",
     guidelinesLink: "https://tinyurl.com/4rk6jch8",
     featured: true,
     cgitOnly: true,
@@ -524,7 +525,7 @@ export const SCHEDULE_DATA: ScheduleItem[] = [
     day: 1,
     speakerOrHost: "Festival Head: Dr. Shweta Choubey",
   },
-  
+
   {
     id: "sch-2",
     time: "10:30 AM onwards",
@@ -584,7 +585,7 @@ export const SCHEDULE_DATA: ScheduleItem[] = [
   },
 
   // DAY 2 — Wednesday, 28 October 2026
-  
+
   {
     id: "sch-9",
     time: "9:00 AM - 5:00 PM",
