@@ -346,8 +346,8 @@ export const EVENTS_DATA: TechEvent[] = [
     venue: "Photography Exhibition Gallery",
     scheduleTime: "Submissions Close·28 Oct · 10:00 PM",
     day: "Day 2",
-    registrationLink: "https://forms.gle/cJQt7eF8jk6enCB99",
-    guidelinesLink: "",
+    registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSdnZa_fHtV8S9OXTifhNwQsXZn_-MMXzl_ukT2oW6woC_WNFQ/viewform",
+    guidelinesLink: "https://tinyurl.com/4rk6jch8",
     featured: true,
     cgitOnly: true,
     highlights: [
