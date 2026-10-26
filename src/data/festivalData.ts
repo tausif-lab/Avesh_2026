@@ -246,7 +246,7 @@ export const EVENTS_DATA: TechEvent[] = [
     tagline: "8-Hour Innovation Sprint to Turn Ideas into Working Prototypes",
     description:
       "An innovation sprint where student teams collaborate, prototype, and present practical ideas that solve real community problems.Prize money is sponsored by the Tadoba Solutions Pvt. Ltd.",
-    prizePool: "Reward & Memento",
+    prizePool: "10k+ prizepool",
     teamSize: "1 - 4 Members",
     entryFee: "FREE (Shortlist Based)",
     venue: "C-Block Room No. 209",
