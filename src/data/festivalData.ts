@@ -41,7 +41,7 @@ export const EVENTS_DATA: TechEvent[] = [
     scheduleTime: "27 Oct·2:00 PM – 5:30 PM ",
     day: "Day 1",
     registrationLink:
-      "https://unstop.com/o/RY7iKh4?lb=vsNTxrbl&utm_medium=Share&utm_source=anisajil6034&utm_campaign=Competitions",
+      "https://unstop.com/o/467gHkd?lb=vsNTxrbl&utm_medium=Share&utm_source=anisajil6034&utm_campaign=Competitions",
     guidelinesLink:
       "https://docs.google.com/document/d/185WGbC4k2gX_aaXxFitrOLGm7ayHILS7/edit?usp=sharing&ouid=101345161843073730424&rtpof=true&sd=true",
     highlights: [
