@@ -25,37 +25,69 @@ export const FEST_METRICS = {
 const GUIDELINES_DRIVE_LINK =
   "https://drive.google.com/drive/folders/1G5mDRmH-S307zFAsotMWS2qvkrLFNrT9?usp=drive_link";
 
-export const EVENTS_DATA: TechEvent[] = 
-[
+export const EVENTS_DATA: TechEvent[] = [
+  {
+    id: "founders-forge",
+    title: "FOUNDER'S FORGE",
+    category: "creative",
+    categoryLabel: "Ideathon · 5 Hours",
+    tagline: "Pitch an Idea with Clear Business Value to Professional Judges",
+    description:
+      "Shape a practical idea, pitch it to professional judges, and receive feedback and mentoring while exploring startup opportunities.",
+    prizePool: "7k+ prizepool",
+    teamSize: "1 - 3 Members",
+    entryFee: "FREE",
+    venue: "B-Block CGIT",
+    scheduleTime: "27 Oct·2:00 PM – 5:30 PM ",
+    day: "Day 1",
+    registrationLink:
+      "https://unstop.com/o/RY7iKh4?lb=vsNTxrbl&utm_medium=Share&utm_source=anisajil6034&utm_campaign=Competitions",
+    guidelinesLink:
+      "https://docs.google.com/document/d/185WGbC4k2gX_aaXxFitrOLGm7ayHILS7/edit?usp=sharing&ouid=101345161843073730424&rtpof=true&sd=true",
+    highlights: [
+      "1 · Ideation: Identify a real problem and shape a solution",
+      "2 · Mentoring: Receive feedback from professional judges and industry experts",
+      "3 · Open Domains: Technology, services, sustainability, and community",
+      "4 · Pitch Deck: Present the problem, solution, impact, business value, and next steps",
+    ],
+    rules: [
+      "Pitch your own idea and acknowledge external tools, data, or references.",
+      "Present a real problem and a viable business model.",
+      "Be prepared to answer judges' questions during evaluation.",
+    ],
+  },
   {
     id: "promptme",
     title: "PROMPTME",
     category: "coding",
     categoryLabel: "Prompt Engineering · 3 Hours",
-    tagline: "Think. Prompt. Create. Your Words, AI's Power, Endless Possibilities",
+    tagline:
+      "Think. Prompt. Create. Your Words, AI's Power, Endless Possibilities",
     description:
       "An on-the-spot prompt engineering challenge: 2 hours to prompt and create, followed by 1 hour to present your outputs and iterations.",
     prizePool: "Reward & Memento",
     teamSize: "1 - 2 Members",
     entryFee: "FREE",
     venue: "C-Block CGIT",
-    scheduleTime: "27 Oct · 01:30 PM – 04:30 PM",
+    scheduleTime: "27 Oct.1:30 PM – 4:30 PM ",
     day: "Day 1",
-    registrationLink: "https://unstop.com/college-fests/avesh-promptme-government-engineering-college-raipur-528063",
-    guidelinesLink: "https://drive.google.com/drive/folders/1gQp3P4m06ri-5VIu4Of7KwR-C-3sJge6?usp=sharing",
+    registrationLink:
+      "https://unstop.com/college-fests/avesh-promptme-government-engineering-college-raipur-528063",
+    guidelinesLink:
+      "https://drive.google.com/drive/folders/1gQp3P4m06ri-5VIu4Of7KwR-C-3sJge6?usp=sharing",
     featured: true,
     cgitOnly: true,
     highlights: [
       "1 · On-the-Spot Challenge: Task revealed at the start",
       "2 · Creation Phase: Plan, write, and refine prompts for 2 hours",
       "3 · Presentation Phase: Present outputs and explain iterations",
-      "4 · Deliverables: AI-generated designs, prototypes, content, or research"
+      "4 · Deliverables: AI-generated designs, prototypes, content, or research",
     ],
     rules: [
       "Follow the tool rules announced at the venue and explain your prompts and iterations.",
       "Clearly define the context, task, constraints, and expected output.",
-      "Judging decisions on creativity, prompt precision, and utility are final."
-    ]
+      "Judging decisions on creativity, prompt precision, and utility are final.",
+    ],
   },
   {
     id: "robo-soccer",
@@ -69,7 +101,7 @@ export const EVENTS_DATA: TechEvent[] =
     teamSize: "1 Member",
     entryFee: "FREE",
     venue: "B-Block",
-    scheduleTime: "27 Oct · 01:30 PM – 04:00 PM",
+    scheduleTime: "27 Oct.1:30 PM – 4:00 PM",
     day: "Day 1",
     registrationLink: "",
     guidelinesLink: "",
@@ -77,14 +109,14 @@ export const EVENTS_DATA: TechEvent[] =
       "1 · Challenge: Navigate the track using an autonomous robot",
       "2 · Precision: Handle sharp turns and curves accurately",
       "3 · Performance: Aim for the fastest successful completion",
-      "4 · Robotics: Demonstrate sensor-based automation"
+      "4 · Robotics: Demonstrate sensor-based automation",
     ],
     rules: [
       "Maximum weight: 3 kg; maximum dimensions: 300 × 300 × 300 mm, with 5% tolerance.",
       "Maximum voltage is 12.6 V; wired robots require a cable of at least 2 m.",
       "Only one designated team member may control the robot.",
-      "Robots undergo dimension and safety inspections before participation."
-    ]
+      "Robots undergo dimension and safety inspections before participation.",
+    ],
   },
   {
     id: "truss-craft",
@@ -98,49 +130,53 @@ export const EVENTS_DATA: TechEvent[] =
     teamSize: "3 - 5 Members",
     entryFee: "FREE",
     venue: "C-Block CGIT",
-    scheduleTime: "27 Oct · 01:30 PM – 04:30 PM",
+    scheduleTime: "27 Oct.1:30 PM – 4:30 PM ",
     day: "Day 1",
     registrationLink: "https://forms.gle/VzHG14bSPzE11g2r8",
-    guidelinesLink: "https://drive.google.com/drive/folders/1XuLvHYYOS9xH1HFjFkkTRwpXaPz7Y9AT",
+    guidelinesLink:
+      "https://drive.google.com/drive/folders/1XuLvHYYOS9xH1HFjFkkTRwpXaPz7Y9AT",
     highlights: [
       "1 · Design: Plan the truss geometry and bridge span",
       "2 · Construction: Build using the materials provided",
       "3 · Load Test: Test structural strength using standard weights",
-      "4 · Scoring: Load ratio, structural stability, build quality, and innovation"
+      "4 · Scoring: Load ratio, structural stability, build quality, and innovation",
     ],
     rules: [
       "Only materials provided at the venue may be used.",
       "The bridge must support itself during the load test.",
-      "Construction must be completed within the announced time limit."
-    ]
+      "Construction must be completed within the announced time limit.",
+    ],
   },
   {
     id: "esports",
     title: "PROJECT SURVIVE",
     category: "gaming",
     categoryLabel: "BGMI + Free Fire",
-    tagline: "Compete While Matches Are Telecast Live on the Auditorium Big Screen",
+    tagline:
+      "Compete While Matches Are Telecast Live on the Auditorium Big Screen",
     description:
       "Battle in a dedicated gaming area while gameplay is captured and telecast live on the auditorium big screen.",
     prizePool: "Reward & Memento",
     teamSize: "Squad (4 Members)",
     entryFee: "FREE",
     venue: "B-Block CGIT",
-    scheduleTime: "27 Oct · 01:30 PM – 05:00 PM",
+    scheduleTime: "27 Oct.1:30 PM – 5:00 PM",
     day: "Day 1",
-    registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSf_YGjPdOPBziec5obN61hcIZO6d2vI5bbxy_YHs6N01F-kLg/viewform",
-    guidelinesLink: "https://drive.google.com/drive/folders/1Vv2LwQUpiMG67-IyjKuuFRsksHu25jWd",
+    registrationLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLSf_YGjPdOPBziec5obN61hcIZO6d2vI5bbxy_YHs6N01F-kLg/viewform",
+    guidelinesLink:
+      "https://drive.google.com/drive/folders/1Vv2LwQUpiMG67-IyjKuuFRsksHu25jWd",
     highlights: [
       "1 · BGMI: Survival and strategy across different maps and modes",
       "2 · Free Fire: Fast-paced action and squad coordination",
       "3 · Live Telecast: Gameplay shown on the auditorium big screen",
-      "4 · Championship: Compete for recognition and prizes"
+      "4 · Championship: Compete for recognition and prizes",
     ],
     rules: [
       "Hacks, cheats, and unauthorized third-party tools result in disqualification.",
       "Match modes and tournament schedules will be announced at the venue.",
-      "Organizers' decisions on match disputes are final."
-    ]
+      "Organizers' decisions on match disputes are final.",
+    ],
   },
   {
     id: "painting-competition",
@@ -154,7 +190,7 @@ export const EVENTS_DATA: TechEvent[] =
     teamSize: "Individual",
     entryFee: "FREE",
     venue: "B-Block",
-    scheduleTime: "27 Oct · 02:00 PM Onwards",
+    scheduleTime: "27 Oct.2:00 PM Onwards",
     day: "Day 1",
     registrationLink: "https://forms.gle/poVgA37kdx3ojDiF9",
     guidelinesLink: "",
@@ -164,13 +200,13 @@ export const EVENTS_DATA: TechEvent[] =
       "1 · Theme: The AI and The Artisan",
       "2 · Creativity: Explore technology and human craftsmanship",
       "3 · Artistic Expression: Bring ideas to life through colours",
-      "4 · Recognition: Showcase your artwork and compete for prizes"
+      "4 · Recognition: Showcase your artwork and compete for prizes",
     ],
     rules: [
       "Competition duration is 1 hour and 30 minutes.",
       "Participants must bring their own colours, brushes, and painting materials.",
-      "Artwork must follow the announced theme."
-    ]
+      "Artwork must follow the announced theme.",
+    ],
   },
   {
     id: "rangoli-competition",
@@ -184,7 +220,7 @@ export const EVENTS_DATA: TechEvent[] =
     teamSize: "Individual / Team",
     entryFee: "FREE",
     venue: "B-Block",
-    scheduleTime: "27 Oct · 10:30 AM",
+    scheduleTime: "27 Oct.10:30 AM",
     day: "Day 1",
     registrationLink: "https://forms.gle/opwsAXPgQV7q5ShU7",
     guidelinesLink: "",
@@ -194,13 +230,13 @@ export const EVENTS_DATA: TechEvent[] =
       "1 · Theme: Tech in Tradition — Where Culture Meets Code",
       "2 · Creativity: Combine traditional patterns with technology",
       "3 · Colours: Express your imagination through vibrant designs",
-      "4 · Innovation: Showcase the connection between culture and technology"
+      "4 · Innovation: Showcase the connection between culture and technology",
     ],
     rules: [
       "Participants must bring their own rangoli colours and required materials.",
       "Designs must follow the announced theme.",
-      "Participants must follow venue instructions."
-    ]
+      "Participants must follow venue instructions.",
+    ],
   },
   {
     id: "hack4community",
@@ -214,51 +250,26 @@ export const EVENTS_DATA: TechEvent[] =
     teamSize: "1 - 4 Members",
     entryFee: "FREE (Shortlist Based)",
     venue: "C-Block Room No. 209",
-    scheduleTime: "28 Oct · 09:30 AM – 05:30 PM",
+    scheduleTime: "28 Oct.9:30 AM – 5:30 PM",
     day: "Day 2",
-    registrationLink: "https://unstop.com/o/kLhcFRw?lb=oAKEwqPC&utm_medium=Share&utm_source=tautum68048&utm_campaign=Online_coding_challenge",
-    guidelinesLink: "https://drive.google.com/file/d/1_iw8_9uRYnwFICjjtYGrXvo-5FTxbYgE/view?usp=sharing",
+    registrationLink:
+      "https://unstop.com/o/kLhcFRw?lb=oAKEwqPC&utm_medium=Share&utm_source=tautum68048&utm_campaign=Online_coding_challenge",
+    guidelinesLink:
+      "https://drive.google.com/file/d/1_iw8_9uRYnwFICjjtYGrXvo-5FTxbYgE/view?usp=sharing",
     highlights: [
       "1 · Problem Solving: Address community, campus, accessibility, or sustainability problems",
       "2 · Build: Develop a functioning prototype during the 8-hour sprint",
       "3 · Presentation: Explain the problem, technical architecture, and impact",
-      "4 · Outcome: Demonstrate a practical solution"
+      "4 · Outcome: Demonstrate a practical solution",
     ],
     rules: [
       "Build and present your own work and acknowledge external tools, APIs, datasets, or libraries.",
       "Keep solutions safe, respectful, and focused on positive community impact.",
       "Be prepared to demonstrate your prototype and explain technical decisions.",
-      "Follow organizers' instructions and time limits."
-    ]
-  },
-  {
-    id: "founders-forge",
-    title: "FOUNDER'S FORGE",
-    category: "creative",
-    categoryLabel: "Ideathon · 5 Hours",
-    tagline: "Pitch an Idea with Clear Business Value to Professional Judges",
-    description:
-      "Shape a practical idea, pitch it to professional judges, and receive feedback and mentoring while exploring startup opportunities.",
-    prizePool: "Reward & Memento",
-    teamSize: "1 - 3 Members",
-    entryFee: "FREE",
-    venue: "B-Block CGIT",
-    scheduleTime: "28 Oct·09:30 AM – 05:30 PM (5 Hours)",
-    day: "Day 2",
-    registrationLink: "https://unstop.com/o/RY7iKh4?lb=vsNTxrbl&utm_medium=Share&utm_source=anisajil6034&utm_campaign=Competitions",
-    guidelinesLink: "https://drive.google.com/file/d/1Lr5VQwJSxTXZkTcKt10kcWe_OuqmUnR_/view?usp=sharing",
-    highlights: [
-      "1 · Ideation: Identify a real problem and shape a solution",
-      "2 · Mentoring: Receive feedback from professional judges and industry experts",
-      "3 · Open Domains: Technology, services, sustainability, and community",
-      "4 · Pitch Deck: Present the problem, solution, impact, business value, and next steps"
+      "Follow organizers' instructions and time limits.",
     ],
-    rules: [
-      "Pitch your own idea and acknowledge external tools, data, or references.",
-      "Present a real problem and a viable business model.",
-      "Be prepared to answer judges' questions during evaluation."
-    ]
   },
+
   {
     id: "quiz",
     title: "TECH & GENERAL QUIZ",
@@ -270,54 +281,56 @@ export const EVENTS_DATA: TechEvent[] =
     prizePool: "₹10,000 Prize Pool",
     teamSize: "1 - 3 Members per Team",
     entryFee: "FREE",
-    venue: "CGIT Raipur",
-    scheduleTime: "28 Oct·5:30 PM – 7:00 PM",
+    venue: "C-Block CGIT",
+    scheduleTime: "28 Oct·11:30 PM – 1:00 PM",
     day: "Day 2",
-    registrationLink: "https://unstop.com/quiz/technical-quiz-chhattisgarh-institute-of-technology-raipur-1774706",
+    registrationLink:
+      "https://unstop.com/quiz/technical-quiz-chhattisgarh-institute-of-technology-raipur-1774706",
     guidelinesLink: "",
     highlights: [
       "1 · General Knowledge: Test awareness and recall",
       "2 · Technical Round: Apply engineering concepts to new scenarios",
       "3 · Aptitude: Solve logic and reasoning questions under time pressure",
-      "4 · Finale: Buzzer and rapid-fire rounds for top teams"
+      "4 · Finale: Buzzer and rapid-fire rounds for top teams",
     ],
     rules: [
       "Answer within the allotted time. Phones and outside help are not permitted.",
       "The quizmaster's decision is final.",
-      "Round formats will be announced at the venue."
-    ]
+      "Round formats will be announced at the venue.",
+    ],
   },
 
-{
-  id: "byte-and-banter",
-  title: "BYTE & BANTER",
-  category: "creative",
-  categoryLabel: "Tech Meme Competition · 28 Oct",
-  tagline: "Create. Post. Meme.",
-  description:
-    "Turn coding struggles, AI fails, and engineering life into internet gold! Showcase your humour and creativity through tech memes and compete to become the ultimate Meme Lord at AVESH 2026.",
-  prizePool: "Mementos & Certificates",
-  teamSize: "Individual / 2 Members",
-  entryFee: "FREE",
-  venue: "C-Block, Room C-105, CGIT Raipur",
-  scheduleTime: "28 Oct · 10:30 AM Onwards",
-  day: "Day 2",
-  registrationLink: "https://forms.gle/dm2XtBoVpDZh8wQT8",
-  guidelinesLink: "https://drive.google.com/drive/folders/1XiQiRXRAT0ngy2KxkDlxFc1CjXf6DIJa?usp=sharing",
-  featured: true,
-  highlights: [
-    "1 · Open Tech Memes: Coding, AI, engineering life, gadgets, and more",
-    "2 · Online Submission: Submit your original meme through the Google Form",
-    "3 · Offline Judging: Memes will be evaluated offline at the venue",
-    "4 · Rewards: Mementos and certificates for 1st and 2nd place"
-  ],
-  rules: [
-    "Participants may compete individually or in teams of up to 2 members.",
-    "Submit your meme online through the official Google Form by 26 October 2026.",
-    "The event features online meme submission followed by offline judging and results.",
-    "Memes should be relevant to technology and follow college guidelines."
-  ]
-},
+  {
+    id: "byte-and-banter",
+    title: "BYTE & BANTER",
+    category: "creative",
+    categoryLabel: "Tech Meme Competition · 28 Oct",
+    tagline: "Create. Post. Meme.",
+    description:
+      "Turn coding struggles, AI fails, and engineering life into internet gold! Showcase your humour and creativity through tech memes and compete to become the ultimate Meme Lord at AVESH 2026.",
+    prizePool: "Mementos & Certificates",
+    teamSize: "Individual / 2 Members",
+    entryFee: "FREE",
+    venue: "C-Block, Room C-105, CGIT Raipur",
+    scheduleTime: "28 Oct·10:30 AM Onwards",
+    day: "Day 2",
+    registrationLink: "https://forms.gle/dm2XtBoVpDZh8wQT8",
+    guidelinesLink:
+      "https://drive.google.com/drive/folders/1XiQiRXRAT0ngy2KxkDlxFc1CjXf6DIJa?usp=sharing",
+    featured: true,
+    highlights: [
+      "1 · Open Tech Memes: Coding, AI, engineering life, gadgets, and more",
+      "2 · Online Submission: Submit your original meme through the Google Form",
+      "3 · Offline Judging: Memes will be evaluated offline at the venue",
+      "4 · Rewards: Mementos and certificates for 1st and 2nd place",
+    ],
+    rules: [
+      "Participants may compete individually or in teams of up to 2 members.",
+      "Submit your meme online through the official Google Form by 26 October 2026.",
+      "The event features online meme submission followed by offline judging and results.",
+      "Memes should be relevant to technology and follow college guidelines.",
+    ],
+  },
 
   {
     id: "pixel-alley",
@@ -331,7 +344,7 @@ export const EVENTS_DATA: TechEvent[] =
     teamSize: "Individual",
     entryFee: "FREE",
     venue: "Photography Exhibition Gallery",
-    scheduleTime: "Submissions Close · 28 Oct · 10:00 PM",
+    scheduleTime: "Submissions Close·28 Oct · 10:00 PM",
     day: "Day 2",
     registrationLink: "https://forms.gle/cJQt7eF8jk6enCB99",
     guidelinesLink: "",
@@ -343,13 +356,13 @@ export const EVENTS_DATA: TechEvent[] =
       "3 · Vintage: Explore timeless and retro aesthetics",
       "4 · Street: Capture authentic everyday moments",
       "5 · Tech: Explore technology through photography",
-      "6 · AVESH: Capture the spirit of the fest"
+      "6 · AVESH: Capture the spirit of the fest",
     ],
     rules: [
       "Submit your 3 best entries based on the announced themes.",
       "Submissions close on 28 October 2026 at 10:00 PM.",
-      "Selected photographs will be showcased in a gallery-style exhibition."
-    ]
+      "Selected photographs will be showcased in a gallery-style exhibition.",
+    ],
   },
   {
     id: "mehndi-competition",
@@ -373,13 +386,13 @@ export const EVENTS_DATA: TechEvent[] =
       "1 · Traditional Art: Showcase beautiful mehndi patterns",
       "2 · Creativity: Express your artistic style",
       "3 · Precision: Demonstrate detail, symmetry, and consistency",
-      "4 · Recognition: Compete for prizes and certificates"
+      "4 · Recognition: Compete for prizes and certificates",
     ],
     rules: [
       "Participants must bring their own mehndi cones.",
       "Mehndi cones and other materials will not be provided by organizers.",
-      "Follow the announced instructions and time limits."
-    ]
+      "Follow the announced instructions and time limits.",
+    ],
   },
   {
     id: "face-painting",
@@ -403,14 +416,14 @@ export const EVENTS_DATA: TechEvent[] =
       "1 · Theme: Faces of Imagination",
       "2 · Creativity: Turn imaginative concepts into face art",
       "3 · Artistic Skills: Showcase colour blending, precision, and originality",
-      "4 · Recognition: Certificates and mementos for winners"
+      "4 · Recognition: Certificates and mementos for winners",
     ],
     rules: [
       "Competition duration is 1 hour and 30 minutes.",
       "Participants must bring their own skin-safe paints, brushes, and required materials.",
       "Only skin-safe paints and materials may be used.",
-      "Follow the announced theme and event instructions."
-    ]
+      "Follow the announced theme and event instructions.",
+    ],
   },
 
   {
@@ -425,22 +438,23 @@ export const EVENTS_DATA: TechEvent[] =
     teamSize: "Solo / Duet / Group",
     entryFee: "FREE",
     venue: "CGIT Auditorium",
-    scheduleTime: "29 Oct · 03:00 PM – 08:00 PM",
+    scheduleTime: "29 Oct · 3:00 PM – 8:00 PM",
     day: "Day 3",
     registrationLink: "https://forms.gle/uHnSqwG9SAEHqRhi7",
-    guidelinesLink: "https://drive.google.com/file/d/1y_jEGxXYM4dmblcDtmHQrpYvatpvq5ZD/view?usp=sharing",
+    guidelinesLink:
+      "https://drive.google.com/file/d/1y_jEGxXYM4dmblcDtmHQrpYvatpvq5ZD/view?usp=sharing",
     featured: true,
     cgitOnly: true,
     highlights: [
       "1 · Solo Dance: One performer, the whole stage",
       "2 · Duet Dance: Two performers, one coordinated performance",
-      "3 · Group Dance: Choreography, coordination, and team energy"
+      "3 · Group Dance: Choreography, coordination, and team energy",
     ],
     rules: [
       "Perform within the time limit announced for each event.",
       "Content must be decent and respectful. Performances follow the published order.",
-      "Judging criteria include skill, expression, stage presence, creativity, and overall impact. Judges' decision is final."
-    ]
+      "Judging criteria include skill, expression, stage presence, creativity, and overall impact. Judges' decision is final.",
+    ],
   },
   {
     id: "cultural-song-day",
@@ -454,7 +468,7 @@ export const EVENTS_DATA: TechEvent[] =
     teamSize: "Solo / Group",
     entryFee: "FREE",
     venue: "CGIT Auditorium",
-    scheduleTime: "29 Oct · 03:00 PM – 08:00 PM",
+    scheduleTime: "29 Oct · 3:00 PM – 8:00 PM",
     day: "Day 3",
     registrationLink: "https://forms.gle/C7uCKQaoKiZpvgpj7",
     guidelinesLink: "",
@@ -462,14 +476,14 @@ export const EVENTS_DATA: TechEvent[] =
     cgitOnly: true,
     highlights: [
       "1 · Solo Singing: Showcase your vocal range, control, and stage presence",
-      "2 · Group Singing: Blend voices in harmony and demonstrate teamwork and musical expression"
+      "2 · Group Singing: Blend voices in harmony and demonstrate teamwork and musical expression",
     ],
     rules: [
       "Perform within the time limit announced for each event.",
       "Content must be decent and respectful. Performances follow the published order.",
-      "Judging criteria include vocal quality, pitch, rhythm, expression, stage presence, and overall impact. Judges' decision is final."
-    ]
-  } ,
+      "Judging criteria include vocal quality, pitch, rhythm, expression, stage presence, and overall impact. Judges' decision is final.",
+    ],
+  },
   {
     id: "artist-night",
     title: "GRAND ARTIST NIGHT",
@@ -482,7 +496,7 @@ export const EVENTS_DATA: TechEvent[] =
     teamSize: "Open to All Delegates",
     entryFee: "Included with Fest Pass",
     venue: "CGIT Raipur Campus Main Grounds",
-    scheduleTime: "30 Oct · 05:00 PM Onwards",
+    scheduleTime: "30 Oct · 5:00 PM Onwards",
     day: "Day 4",
     registrationLink: "",
     guidelinesLink: "",
@@ -490,15 +504,14 @@ export const EVENTS_DATA: TechEvent[] =
       "1 · Auditorium Highlights: Top fest performances return to the stage",
       "2 · Opening Act: A warm-up performance before the headliner",
       "3 · Live Artist Show: Headline artist to be announced",
-      "4 · DJ & Wind-Up: Music and dancing to close AVESH 2026"
+      "4 · DJ & Wind-Up: Music and dancing to close AVESH 2026",
     ],
     rules: [
       "A valid fest delegate pass or college ID is required at campus security checkpoints.",
-      "Respect performers, equipment, fellow students, and campus property."
-    ]
-  }
-]
-
+      "Respect performers, equipment, fellow students, and campus property.",
+    ],
+  },
+];
 
 export const SCHEDULE_DATA: ScheduleItem[] = [
   // DAY 1 — Tuesday, 27 October 2026
@@ -511,6 +524,7 @@ export const SCHEDULE_DATA: ScheduleItem[] = [
     day: 1,
     speakerOrHost: "Festival Head: Dr. Shweta Choubey",
   },
+  
   {
     id: "sch-2",
     time: "10:30 AM onwards",
@@ -518,6 +532,15 @@ export const SCHEDULE_DATA: ScheduleItem[] = [
     category: "Cultural",
     venue: "B-Block",
     day: 1,
+  },
+  {
+    id: "sch-8",
+    time: "2:00 AM - 5:30 PM",
+    title: "Founder's Forge: Ideathon & Mentoring",
+    category: "Creative",
+    venue: "B-Block CGIT",
+    day: 1,
+    speakerOrHost: "Professional Judges & Startup Mentors",
   },
   {
     id: "sch-3",
@@ -561,15 +584,7 @@ export const SCHEDULE_DATA: ScheduleItem[] = [
   },
 
   // DAY 2 — Wednesday, 28 October 2026
-  {
-    id: "sch-8",
-    time: "9:00 AM - 4:00 PM",
-    title: "Founder's Forge: Ideathon & Mentoring",
-    category: "Creative",
-    venue: "B-Block CGIT",
-    day: 2,
-    speakerOrHost: "Professional Judges & Startup Mentors",
-  },
+  
   {
     id: "sch-9",
     time: "9:00 AM - 5:00 PM",
@@ -579,14 +594,15 @@ export const SCHEDULE_DATA: ScheduleItem[] = [
     day: 2,
   },
 
-{
-  id: "sch-22",
-  time: "10:30 AM onwards",
-  title: "BYTE & BANTER: Tech Meme-Making Competition — Online Submission, Offline Judging & Results",
-  category: "Technical",
-  venue: "C-Block, Room C-105, CGIT Raipur",
-  day: 2,
-},
+  {
+    id: "sch-22",
+    time: "10:30 AM onwards",
+    title:
+      "BYTE & BANTER: Tech Meme-Making Competition — Online Submission, Offline Judging & Results",
+    category: "Technical",
+    venue: "C-Block, Room C-105, CGIT Raipur",
+    day: 2,
+  },
 
   {
     id: "sch-10",
